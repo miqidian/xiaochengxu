@@ -1,0 +1,3 @@
+<!--pages/subject-list/subject-list.wxml-->
+<import src="../../comment/template/list.wxml" />
+<template is="list" data="{{list,loading}}"></template>

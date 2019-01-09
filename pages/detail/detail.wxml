@@ -1,0 +1,6 @@
+<view wx:if="{{!loading}}">  
+  <video class='video' wx:if="{{detailData.is_play}}" src='{{"https://www.koocv.com/h5-view/v/movie/play?url="+detailData.play_url}}'></video>
+  <text class='title'>{{detailData.title}}</text>
+  <view class='type'>电影类型：{{detailData.genres}}/{{detailData.countries}}</view>
+  <text class='desc'>{{detailData.summary}}</text>
+</view>  

@@ -1,0 +1,22 @@
+.title{
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.desc{
+  display: block;
+  padding: 10px;
+  line-height: 35px;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+.type{
+  line-height: 35px;
+  padding-left: 10px;
+}
+.video{
+  width: 100%;
+}

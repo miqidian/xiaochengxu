@@ -1,0 +1,15 @@
+/* pages/subject/subject.wxss */
+.wrap{
+  position: relative;
+  margin-bottom: 15px;
+}
+.wrap .title{
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+.image{
+  width: 100%;
+}

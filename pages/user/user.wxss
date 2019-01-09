@@ -1,0 +1,17 @@
+/* pages/user/user.wxss */
+.avatar{
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  overflow: hidden;
+  display: block;
+  margin: 20px auto;
+}
+.text{
+  display: block;
+  line-height: 30px;
+  text-align: center;
+}
+.contain{
+  padding: 20px;
+}

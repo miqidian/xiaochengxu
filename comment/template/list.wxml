@@ -1,0 +1,12 @@
+<template name="list">
+  <scroll-view scroll-y="true" lower-threshold="200" bindscrolltolower="lower" style='height:100%'>
+    <view class='item'  wx:for="{{list}}" data-id="{{item.id}}"  wx:key="{{index}}" bindtap='tap'>
+      <image src="{{item.cover}}"></image>
+      <text>{{item.title}}/{{item.rate}}</text>
+    </view>
+
+    <view class='loading' wx:if="{{loading}}">
+      <text>jia zai zhong...</text>
+    </view>
+  </scroll-view>
+</template>

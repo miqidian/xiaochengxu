@@ -1,0 +1,12 @@
+<!--pages/user/user.wxml-->
+<view>
+  <view class='contain' wx:if="{{avatarUrl}}">
+      <image class='avatar' src="{{avatarUrl}}"></image>
+      <text class='text'>
+        {{nickName}}-{{province}}-{{city}}</text>
+  </view>
+  <button type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+  <view>
+      <text>历史浏览记录</text>
+  </view>
+</view>
